@@ -7,7 +7,7 @@
             <div class="center-align" style="font-size: 50px">
                 404
             </div>
-            <p class="center-align">Looks like there is nothing here to see</p>
+            <p class="center-align">{{ trans('errors.404') }}</p>
         </div>
     </div>
 </div>
