@@ -1,0 +1,14 @@
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+.idea
+/.idea
+
+public/uploads
+public/build
+public/css
+public/js
+.sass-cache
+storage/database.sqlite
