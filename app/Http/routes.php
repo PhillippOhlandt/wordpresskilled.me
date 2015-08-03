@@ -25,3 +25,4 @@ Route::group(['prefix' => 'backend', 'middleware' => 'admin'], function () {
 
 Route::get('/{activepost}', 'PostController@show');
 
+Route::post('/website/new', 'WebsiteController@store');
