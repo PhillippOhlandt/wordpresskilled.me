@@ -4,7 +4,7 @@
 <div class="container">
 
     <div class="row">
-        <div class="col s12 m8 l8 post-list">
+        <div class="col s12 m7 l5 offset-m1 offset-l2 post-list">
 
             @foreach($posts as $post)
                 @include('partials.post.preview', ['post' => $post])
@@ -13,7 +13,7 @@
             {!! with((new Ohlandt\Presenters\Pagination\Materialize($posts))->setColor('deep-orange darken-2'))->render() !!}
 
         </div>
-        <div class="col s12 m4 l4 sidebar">
+        <div class="col s12 m3 l3 sidebar">
             @include('partials.sidebar')
         </div>
     </div>

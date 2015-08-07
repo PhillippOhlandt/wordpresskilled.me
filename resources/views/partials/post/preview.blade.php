@@ -1,5 +1,5 @@
  <div class="row post">
-        <div class="col s12 m10 l8">
+        <div class="col s12">
             <h3><a href="/{{ $post->slug }}">{{ $post->title }}</a></h3>
             <p>{{ $post->text }}</p>
             <img class="materialboxed responsive-img" src="/uploads/{{ $post->image }}">
