@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6f80ab32e4ff2081e1f707fe9a5f39f7",
+    "hash": "89ec992f801b1ac6ca9ce4c497f3f57f",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -983,6 +983,52 @@
                 "shell"
             ],
             "time": "2015-07-16 15:26:57"
+        },
+        {
+            "name": "ryannielson/meta",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RyanNielson/meta.git",
+                "reference": "d65fd741cb38d5166d3eb38083111ed9f8ee7431"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RyanNielson/meta/zipball/d65fd741cb38d5166d3eb38083111ed9f8ee7431",
+                "reference": "d65fd741cb38d5166d3eb38083111ed9f8ee7431",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "2.0.*@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "RyanNielson\\Meta\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Nielson",
+                    "email": "ryan.nielson@gmail.com",
+                    "homepage": "http://nielson.io"
+                }
+            ],
+            "description": "A package that makes it easy to add meta tags to your views. Includes easy Laravel integration.",
+            "homepage": "https://github.com/RyanNielson/meta",
+            "keywords": [
+                "laravel",
+                "meta",
+                "view"
+            ],
+            "time": "2015-03-02 16:44:17"
         },
         {
             "name": "swiftmailer/swiftmailer",

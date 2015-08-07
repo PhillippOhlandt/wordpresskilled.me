@@ -31,6 +31,16 @@ class PostController extends Controller
      */
     public function create()
     {
+        $this->meta->set(
+            [
+                'title' => 'Submit a Post | Wordpress Killed Me',
+                'description' => 'Submit your Wordpress rant.',
+                'og' => [
+                    'title' => 'Submit a Post | Wordpress Killed Me',
+                    'description' => 'Submit your Wordpress rant.',
+                ]
+            ]);
+
         return view('submit');
     }
 
@@ -69,6 +79,16 @@ class PostController extends Controller
         if(!$post){
             abort(404);
         }
+
+        $this->meta->set(
+            [
+                'title' => $post->title . ' | Wordpress Killed Me',
+                'description' => $post->text,
+                'og' => [
+                    'title' => $post->title . ' | Wordpress Killed Me',
+                    'description' => $post->text,
+                ]
+            ]);
 
         return view('post.show', ['post' => $post]);
     }
