@@ -147,6 +147,8 @@ main .container {
     color: #bf360c; }
   .sidebar a:focus {
     color: #bf360c; }
+.sidebar img {
+  max-width: 100%; }
 
 footer {
   color: #999;
