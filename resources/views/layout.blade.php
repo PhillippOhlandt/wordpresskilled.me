@@ -34,7 +34,7 @@
     <div class="container">
         <div class="row">
             <div class="col s12">
-                bla
+                <a href="/">wordpresskilled.me</a> &copy; 2015 by <a href="https://twitter.com/BastienBotella" target="_blank">@BastienBotella</a> and <a href="https://twitter.com/PhillippOh" target="_blank">@PhillippOh</a>
             </div>
         </div>
     </div>

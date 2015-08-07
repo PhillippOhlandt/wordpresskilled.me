@@ -10,6 +10,8 @@
                 @include('partials.post.preview', ['post' => $post])
             @endforeach
 
+            {!! with((new Ohlandt\Presenters\Pagination\Materialize($posts))->setColor('deep-orange darken-2'))->render() !!}
+
         </div>
         <div class="col s12 m4 l4 sidebar">
             @include('partials.sidebar')
@@ -17,10 +19,6 @@
     </div>
 </div>
 <div class="container">
-    <div class="row">
-        <div class="col 12 m8 l8">
-            {!! with((new Ohlandt\Presenters\Pagination\Materialize($posts))->setColor('deep-orange darken-2'))->render() !!}
-        </div>
-    </div>
+
 </div>
 @endsection

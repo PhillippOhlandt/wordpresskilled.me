@@ -71,6 +71,8 @@ main .container {
     color: #bf360c; }
   .post-list a:focus {
     color: #bf360c; }
+.post-list .pagination {
+  margin-bottom: 20px; }
 
 .post h1 {
   font-size: 25px;
@@ -119,8 +121,6 @@ main .container {
 .post .col {
   padding-bottom: 20px;
   border-bottom: 1px solid #dedede; }
-.post:last-child .col {
-  border-bottom: none; }
 
 .sidebar h3 {
   margin: 0px;
@@ -148,12 +148,17 @@ main .container {
   .sidebar a:focus {
     color: #bf360c; }
 
-footer .container {
-  border-top: 1px solid #dddddd;
-  padding-bottom: 1px; }
-  footer .container .row {
-    margin-bottom: 10px;
-    margin-top: 10px; }
+footer {
+  color: #999;
+  font-size: 12px; }
+  footer .container {
+    border-top: 1px solid #dddddd;
+    padding-bottom: 1px; }
+    footer .container .row {
+      margin-bottom: 10px;
+      margin-top: 10px; }
+  footer a {
+    color: #888; }
 
 .alert {
   background-color: #ffab91;
