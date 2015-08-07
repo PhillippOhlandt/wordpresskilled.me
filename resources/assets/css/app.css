@@ -116,6 +116,11 @@ main .container {
     font-family: Montserrat, Lato;
     text-transform: uppercase;
     line-height: 20px; }
+.post .col {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dedede; }
+.post:last-child .col {
+  border-bottom: none; }
 
 .sidebar h3 {
   margin: 0px;

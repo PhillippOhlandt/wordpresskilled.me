@@ -1,6 +1,5 @@
-<div class="section">
-    <div class="row post">
-        <div class="col s12 m10 offset-m1 l6 offset-l3">
+ <div class="row post">
+        <div class="col s12 m10 l8">
             <h3><a href="/{{ $post->slug }}">{{ $post->title }}</a></h3>
             <p>{{ $post->text }}</p>
             <img class="materialboxed responsive-img" src="/uploads/{{ $post->image }}">
@@ -9,4 +8,3 @@
             </div>
         </div>
     </div>
-</div>

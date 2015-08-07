@@ -19,7 +19,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        $posts =  (new PaginatedActivePosts())->get(3);
+        $posts =  (new PaginatedActivePosts())->get(10);
 
         return view('index', ['posts' => $posts]);
     }
