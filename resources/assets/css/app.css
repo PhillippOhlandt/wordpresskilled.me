@@ -192,4 +192,17 @@ footer {
     .pagination li i {
       line-height: 1; }
 
+.social-buttons {
+  display: block;
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  margin: 0px; }
+
+.social-buttons > li {
+  display: block;
+  margin: 0;
+  padding: 10px;
+  float: left; }
+
 /*# sourceMappingURL=app.css.map */

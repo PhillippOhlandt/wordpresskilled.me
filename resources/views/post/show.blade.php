@@ -12,7 +12,17 @@
                 <div class="share">
                     <h4>{{ trans('post.share') }}</h4>
                     <div class="widgets">
-
+                        <ul class="social-buttons cf">
+                            <li>
+                                <a href="http://twitter.com/share" class="socialite twitter-share" data-text="{{ $post->title }}" data-url="{{ \Request::url() }}" data-via="wpkilledme" data-count="vertical" rel="nofollow" target="_blank"><span class="vhidden">Share on Twitter</span></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/share?url={{ \Request::url() }}" class="socialite googleplus-one" data-size="tall" data-href="{{ \Request::url() }}" rel="nofollow" target="_blank"><span class="vhidden">Share on Google+</span></a>
+                            </li>
+                            <li>
+                                <a href="http://www.facebook.com/sharer.php?u={{ \Request::url() }}&t={{ $post->title }}" class="socialite facebook-like" data-href="{{ \Request::url() }}" data-send="false" data-layout="box_count" data-width="60" data-show-faces="false" rel="nofollow" target="_blank"><span class="vhidden">Share on Facebook</span></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -44,4 +54,10 @@
             </div>
         </div>
     </div>
+@endsection
+
+@section('scripts')
+    <script>
+        Socialite.load();
+    </script>
 @endsection

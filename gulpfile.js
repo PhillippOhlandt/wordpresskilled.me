@@ -23,7 +23,8 @@ elixir(function(mix) {
     mix.scripts([
      '../../..//node_modules/jquery/dist/jquery.js',
      '../../..//node_modules/materialize-css/bin/materialize.js',
-     'browserify.js'
+     'socialite.js',
+     'browserify.js',
     ], 'public/js/bundle.js')
 
     mix.version(["css/all.css", "js/bundle.js"]);
