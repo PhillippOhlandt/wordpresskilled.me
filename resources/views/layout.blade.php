@@ -5,6 +5,10 @@
     <title>{{ $meta->getAttributes()['title'] }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta itemprop="name" content="{{ $meta->getAttributes()['title'] }}">
+    <meta itemprop="description" content="{{ $meta->getAttributes()['description'] }}">
+    <meta itemprop="image" content="{{ $meta->getAttributes()['image'] }}">
+
     {!! $meta->display() !!}
 
     <link rel="stylesheet" href="{{ elixir("css/all.css") }}">
