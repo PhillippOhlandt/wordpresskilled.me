@@ -12,8 +12,8 @@
                 @endif
 
                 <h1>Submit a post</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores ipsa laudantium molestias placeat, quidem veniam. Alias, doloribus explicabo fugit id ipsam nobis nostrum officia possimus quas quos ratione voluptatem?</p>
-
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores ipsa laudantium molestias placeat, quidem veniam. Alias, doloribus explicabo fugit id ipsam nobis nostrum officia possimus quas quos ratione voluptatem?</p>
+-->
                 @if (count($errors) > 0)
                     <div class="alert">
                         <strong>Whoops!</strong> There were some problems with your input.<br><br>
