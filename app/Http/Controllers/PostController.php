@@ -38,6 +38,10 @@ class PostController extends Controller
                 'og' => [
                     'title' => 'Submit a Post | Wordpress Killed Me',
                     'description' => 'Submit your Wordpress rant.',
+                ],
+                'twitter' => [
+                    'title' => 'Submit a Post | Wordpress Killed Me',
+                    'description' => str_limit('Submit your Wordpress rant.', 180),
                 ]
             ]);
 
@@ -87,6 +91,10 @@ class PostController extends Controller
                 'og' => [
                     'title' => $post->title . ' | Wordpress Killed Me',
                     'description' => $post->text,
+                ],
+                'twitter' => [
+                    'title' => $post->title . ' | Wordpress Killed Me',
+                    'description' => str_limit($post->text, 180),
                 ]
             ]);
 

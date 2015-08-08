@@ -30,6 +30,13 @@ abstract class Controller extends BaseController
                     'title' => 'Wordpress Killed Me - Your place to rant about Wordpress',
                     'description' => 'Trouble with Wordpress? Here you are at the right place to scream it out to the world.',
                     'keywords' => ['wordpress', 'cms', 'only for blogs', 'hate', 'rant', 'fail'],
+                ],
+                'twitter' => [
+                    'card' => 'summary',
+                    'site' => '@wpkilledme',
+                    'title' => 'Wordpress Killed Me - Your place to rant about Wordpress',
+                    'description' => str_limit('Trouble with Wordpress? Here you are at the right place to scream it out to the world.', 180),
+                    'image' => 'http://wordpresskilled.me/img/twitter-image.png'
                 ]
             ]);
 
