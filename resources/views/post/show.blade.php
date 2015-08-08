@@ -14,7 +14,7 @@
                     <div class="widgets">
                         <ul class="social-buttons cf">
                             <li>
-                                <a href="http://twitter.com/share" class="socialite twitter-share" data-text="{{ $post->title }}" data-url="{{ \Request::url() }}" data-via="wpkilledme" data-count="vertical" rel="nofollow" target="_blank"><span class="vhidden">Share on Twitter</span></a>
+                                <a href="http://twitter.com/share" class="socialite twitter-share" data-text="{{ $post->title }}" data-url="{{ \Request::url() }}" data-via="wpkilledme" data-hashtags="wordpress" data-count="vertical" rel="nofollow" target="_blank"><span class="vhidden">Share on Twitter</span></a>
                             </li>
                             <li>
                                 <a href="https://plus.google.com/share?url={{ \Request::url() }}" class="socialite googleplus-one" data-size="tall" data-href="{{ \Request::url() }}" rel="nofollow" target="_blank"><span class="vhidden">Share on Google+</span></a>
