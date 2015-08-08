@@ -6,7 +6,7 @@
             <div class="col s12 m8 l8 post single">
 
                 <h1>{{ $post->title }}</h1>
-                <p>{{ $post->text }}</p>
+                <p>{!! $post->text !!}</p>
                 <img class="materialboxed responsive-img" src="/uploads/{{ $post->image }}">
 
                 <div class="share">

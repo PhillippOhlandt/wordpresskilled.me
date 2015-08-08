@@ -63,7 +63,7 @@ class PostController extends Controller
         $data = [
             "title" => $request->get('title'),
             "slug" => str_slug($request->get('title'), '-') . '-' . mt_rand(10000, 99999),
-            "text" => $request->get('text'),
+            "text" => nl2br($request->get('text')),
             "image" => $filename
         ];
 
