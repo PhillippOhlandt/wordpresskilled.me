@@ -18,7 +18,7 @@
                         </h5>
                     </div>
                     <div class="col s12 m8 l9">
-                        {{ $post->text }}
+                        {!! $post->text !!}
                     </div>
                     <div class="col s12 m4 l3">
                         <img class="materialboxed responsive-img" src="/uploads/{{ $post->image }}">
