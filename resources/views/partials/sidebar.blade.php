@@ -8,6 +8,10 @@
         @foreach($latestActivePosts as $post)
             <li><a href="/{{ $post->slug }}">{{ $post->title }}</a></li>
         @endforeach
+
+        @if(!count($latestActivePosts))
+            <li>No posts yet</li>
+        @endif
     </ul>
 </div>
 <div class="follow-us">
