@@ -10,6 +10,10 @@
                 @include('partials.post.preview', ['post' => $post])
             @endforeach
 
+            @if(!count($posts))
+                No posts yet.
+            @endif
+
             {!! with((new Ohlandt\Presenters\Pagination\Materialize($posts))->setColor('deep-orange darken-2'))->render() !!}
 
         </div>
