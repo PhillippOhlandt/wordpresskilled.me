@@ -19,9 +19,11 @@
 <div class="container">
     <div class="section">
         <div class="row">
-            <div class="col s12 center-align">
+            <div class="col s12">
                 <div class="logo">
-                    <a href="/"><span>W</span>ord<span>p</span>ress <span>K</span>illed <span>M</span>e</a>
+                    <a href="/">
+                        <img src="/img/logo.png" alt="Wordpress Killed Me">
+                    </a>
                 </div>
             </div>
         </div>

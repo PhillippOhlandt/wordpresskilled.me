@@ -58,6 +58,8 @@ input[type=text]:focus:not([readonly]) + label, input[type=password]:focus:not([
     color: #e64a19; }
   .logo a {
     color: #333333; }
+  .logo img {
+    max-width: 100%; }
 
 main .container {
   padding-bottom: 1px; }
