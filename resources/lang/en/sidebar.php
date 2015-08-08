@@ -9,6 +9,9 @@ return [
     'latest' => [
         'headline' => 'Latest Posts'
     ],
+    'follow' => [
+        'headline' => 'Follow us'
+    ],
     'sticker' => [
         'headline' => 'Sticker',
         'text' => 'Buy our awesome anti-Wordpress sticker <a href="https://www.stickermule.com/marketplace/6562-wordpress-sucks" target="_blank">here</a>'

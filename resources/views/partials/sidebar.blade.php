@@ -10,6 +10,12 @@
         @endforeach
     </ul>
 </div>
+<div class="follow-us">
+    <h3>{!! trans('sidebar.follow.headline') !!}</h3>
+    <ul>
+        <li><a href="https://twitter.com/wpkilledme" target="_blank">Twitter</a></li>
+    </ul>
+</div>
 <div class="sticker">
     <h3>{!! trans('sidebar.sticker.headline') !!}</h3>
     <p>{!! trans('sidebar.sticker.text') !!}</p>
