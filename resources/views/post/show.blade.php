@@ -41,8 +41,6 @@
 
                     var disqus_title = '{{ $post->title }}';
 
-                    var disqus_identifier = '{{ $post->id }}';
-
                     /* * * DON'T EDIT BELOW THIS LINE * * */
                     (function() {
                         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
