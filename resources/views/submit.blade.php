@@ -49,7 +49,6 @@
                                 </div>
                                 <div class="file-path-wrapper">
                                     <input class="file-path validate" type="text" style="margin-left: 120px; width: calc(100% - 120px);">
-                                    <label for="text">Max. size : 2Mb</label>
                                 </div>
                             </div>
                         </div>
